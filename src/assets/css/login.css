@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: arial, tahoma, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	direction: ltr;
+	background: white;
+}
+
+.from-login {
+	margin: 10% auto 0 auto;
+	padding: 30px;
+	width: 600px;
+	height: auto;
+	overflow: hidden;
+	background: rgb(235, 232, 232);
+	border-radius: 10px;
+}
+
+.from-login label {
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	font-weight: 700;
+}
+
+.from-login label,
+.from-login input {
+	float: left;
+	clear: both;
+}
+
+.from-login input {
+	margin: 10px 0;
+	word-wrap: 600;
+	padding: 15px 10px;
+	width: 100%;
+	outline: none;
+	border: 1px solid #bbb;
+	border-radius: 20px;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: 0.2s ease all;
+	-moz-transition: 0.2s ease all;
+	-ms-transition: 0.2s ease all;
+	-o-transition: 0.2s ease all;
+	transition: 0.2s ease all;
+}
+
+.from-login input[type=text]:focus,
+.from-login input[type="password"]:focus {
+	border-color: cornflowerblue;
+}
+
+.from-login input[type=submit] {
+	padding: 15px 60px;
+	width: auto;
+	margin-top: 0.1rem;
+	background: #1abc9c;
+	border: none;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	clear: right;
+	-webkit-transition: 0.2s ease all;
+	-moz-transition: 0.2s ease all;
+	-ms-transition: 0.2s ease all;
+	-o-transition: 0.2s ease all;
+	transition: 0.2s ease all;
+}
+
+.from-login input[type=submit]:hover {
+	opacity: 0.8;
+}
+
+.from-login input[type="submit"]:active {
+	opacity: 0.4;
+}
+
+.forgot,
+.register {
+	margin: 10px;
+	float: left;
+	clear: left;
+	display: inline-block;
+	color: cornflowerblue;
+	text-decoration: none;
+}
+
+.forgot:hover,
+.register:hover {
+	color: darkgray;
+}
+
+#logo {
+	margin: 0 auto;
+	width: 200px;
+	font-family: 'Lily Script One', cursive;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(121, 104, 104);
+	-webkit-transition: 0.2s ease all;
+	-moz-transition: 0.2s ease all;
+	-ms-transition: 0.2s ease all;
+	-o-transition: 0.2s ease all;
+	transition: 0.2s ease all;
+}
+
+#logo:hover {
+	color: cornflowerblue;
+}
+
+.password-toggle-icon {
+	position: relative;
+	float: right;
+	margin-top: -3.3rem;
+	margin-right: 10px;
+	background: #ffffff;
+	height: 30px;
+}
+
+.input-error {
+	border-color: red;
+	color: red;
+}
+
+.log_in_text {
+	text-align: center;
+}
+
+.btn-image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px dashed #000000;
+	height: 300px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.upload-content {
+	display: flex;
+	align-items: center;
+}
+
+.input-field {
+	position: relative;
+}
+
+.upload-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.md-delete {
+	font-size: 50px;
+}
+
+.validation {
+	color: #ff0000;
+	font-size: 13px;
+	font-weight: 700;
+	margin-left: 15px;
+}
+
+.validation-password {
+	color: #ff0000;
+	font-size: 13px;
+	font-weight: 700;
+	margin-top: 50px;
+	white-space: pre-line;
+	margin-left: 20px;
+}
